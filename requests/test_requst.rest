@@ -1,0 +1,14 @@
+Delete http://localhost:3001/api/persons/745
+
+###
+
+GET http://localhost:3001/api/persons/
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Silva Kaputikyan",
+    "number": "6-555-777"
+}
